@@ -1,0 +1,109 @@
+@font-face
+{
+font-family: mplus-1p-regular;
+src: url('../fonts/mplus-1p-regular.ttf')
+     format("truetype");
+}
+.navbar{
+	border:0px;
+	min-height:80px;
+}
+.navbar-brand {
+	padding: 20px 20px;
+}
+.navbar-nav > li > a{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.section.type-1 {
+	margin:0px;
+}
+.sub-header{
+  background: #75c9ba;
+  color: #d8eeeb;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.navbar > .container .navbar-brand{
+	background-image:url('../images/logo.png');
+	background-repeat:no-repeat;
+	background-position:center; 
+	margin-left: -35px;
+	width:300px;
+	height: 70px
+}
+img {
+	width: auto\9;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+}
+body{
+	font-size:16px;
+	font-family:  mplus-1p-regular;
+}
+small,.small{
+	font-size:19px;
+}
+.footer a,.footer a:hover,.footer a:active{
+	color:#fff;
+}
+.splash-cover{
+	background:#fff;
+}
+.aligncenter {
+	text-align: center;
+}
+
+.bs-apply .form-control {
+  background: #384048;
+  border-color: transparent !important;
+  color: #a5b3bf;
+  -o-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -webkit-transition: background-color 0.3s linear;
+  /* ...and now override with proper CSS property */
+  transition: background-color 0.3s linear;
+}
+.bs-apply .form-control:focus {
+  background: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.section-headlines{
+	font-size: 16px;
+	line-height: 1.7;
+	margin-top: 20px;
+}
+.section-headlines > h1{
+	font-size:50px;
+}
+.section-headlines > h4{
+background-color: #75c9ba;
+color: #fff;
+padding: 20px;	
+font-size: 29px;
+}
+.btn{
+	font-family:  mplus-1p-regular;
+}
+
+.section-headlines > h4,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family:  mplus-1p-regular;
+}
+
+#form-apply
+{
+	margin-left: 15px;
+}
